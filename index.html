@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./fa/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="./css/main.min.css">
+    <title>Sayohat uchun ketadigan vaqtni aniqlovchi Application</title>
+</head>
+<body>
+    
+    <div class="travel">
+
+        <h2 class="travel__heading">Kim birinchi bo-rish-ga!</h2>
+
+        <form class="travel__form">
+
+            <label class="travel__form-label"  for="distance">Masofa</label>
+            
+            <div class="validator"></div>
+            <input class="travel__form-input" type="text" id="distance"
+            placeholder="masofani km larda kiriting..." required>
+
+            <button class="travel__form-button" type="submit">Hisobla</button>
+
+        </form>
+
+
+        <ol class="travel__transport-types">
+
+            <li class="travel__transport-type">
+
+                <i class="fas fa-male fa-3x fa-fw"></i>
+                
+                <h3 class="travel__transport-name">Piyoda</h3>
+
+                <strong class="travel__transport-time foot">N soat</strong>
+
+            </li>
+
+            <li class="travel__transport-type">
+
+                <i class="fas fa-bicycle fa-3x fa-fw"></i>
+                
+                <h3 class="travel__transport-name">Velosiped</h3>
+
+                <strong class="travel__transport-time bicycle">N soat</strong>
+                
+            </li>
+
+            <li class="travel__transport-type">
+
+                <i class="fas fa-car fa-3x fa-fw"></i>
+                
+                <h3 class="travel__transport-name">Mashina</h3>
+
+                <strong class="travel__transport-time car">N soat</strong>
+                
+            </li>
+
+            <li class="travel__transport-type">
+
+                <i class="fas fa-plane fa-3x fa-fw"></i>
+                
+                <h3 class="travel__transport-name">Samolyot</h3>
+
+                <strong class="travel__transport-time plane">N soat</strong>
+                
+            </li>
+
+        </ol>
+
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
